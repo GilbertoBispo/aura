@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "projeto backend feito em Node + Express para o projeto da rede social Aura",
+  "homepage": "https://github.com/GilbertoBispo/aura#readme",
+  "bugs": {
+    "url": "https://github.com/GilbertoBispo/aura/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilbertoBispo/aura.git"
+  },
+  "license": "ISC",
+  "author": "Gilberto Bispo",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js" 
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
