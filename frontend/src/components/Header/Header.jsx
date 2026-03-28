@@ -17,7 +17,7 @@ function Header() {
 
     return (
         // a propriedade "shadow-[]" usa valores separados por underscores
-        <header className="bg-(--secondary-color) h-12.5 w-full mb-8.5 shadow-[0px_5px_6px_-1px_#00000040]">
+        <header className="bg-(--secondary-color) h-12.5 w-full shadow-[0px_5px_6px_-1px_#00000040] fixed">
             <div className="flex justify-between items-center h-full px-3.5">
                 <h1 className="font-bold text-(--white-text) text-2xl">Aura</h1>
                 {/*
@@ -42,7 +42,7 @@ function Header() {
                             }
                          }}
                         transition={{ duration: 0.6, ease: [0, 0.71, 0.2, 1]}}
-                    className="ativo h-full bg-(--primary-color) w-[80%] top-0 fixed shadow-[5px_0px_6px_-1px_#00000040]">
+                    className="ativo h-full bg-(--primary-color) w-[80%] top-0 fixed shadow-[5px_0px_6px_-1px_#00000040] z-30">
                         {/* Informações do usuário */}
                         <div className="flex gap-2.5 p-8">
                             <a className="rounded-[100px]" href="">
