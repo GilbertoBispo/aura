@@ -6,7 +6,9 @@ function BottomBar() {
             <div className="flex justify-between items-center h-full px-3.5">
                 <Settings className="text-white"></Settings>
                 <House className="text-white"></House>
-                <Plus className="text-white"></Plus>
+                <a href="/criar-post">
+                    <Plus className="text-white"></Plus>
+                </a>
             </div>
         </nav>
     )
